@@ -4,7 +4,7 @@ This repository contains PyTorch implementations of AlexNet trained on CIFAR-10,
 
 ## Folder Structure
 
-cifar10-experiments/
+cifar10-experiments/  
 ├── pytorch/  
 │   ├── baseline/       # Baseline AlexNet implementation  
 │   ├── amp/            # AlexNet with Automatic Mixed Precision  
