@@ -5,13 +5,13 @@ This repository contains PyTorch implementations of AlexNet trained on CIFAR-10,
 ## Folder Structure
 
 cifar10-experiments/
-├── pytorch/
-│   ├── baseline/       # Baseline AlexNet implementation
-│   ├── amp/            # AlexNet with Automatic Mixed Precision
-│   └── onnx-jit/       # ONNX export and JIT trace mode experiments
-├── tensorflow/         # TensorFlow AlexNet implementation (not covered here)
-├── README.md
-└── LICENSE
+├── pytorch/  
+│   ├── baseline/       # Baseline AlexNet implementation  
+│   ├── amp/            # AlexNet with Automatic Mixed Precision  
+│   └── onnx-jit/       # ONNX export and JIT trace mode experiments  
+├── tensorflow/         # TensorFlow AlexNet implementation (not covered here)  
+├── README.md  
+└── LICENSE  
 
 ## Experiments and Results
 
