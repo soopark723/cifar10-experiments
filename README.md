@@ -66,8 +66,7 @@ cifar10-experiments/
 | Student Model (with KD)        | 63.07%           | 21.9342 second       |
 
 - **Insights:**  
-Upon testing, the teacher model had the highest accuracy, with 71.51%. It also had the longest inferece speed, taking approximately 23.90 seconds in total. The distilled student model was faster, but  less accurate. This was to be expected, as it is a simpler, shallower model than the teacher model. The distilled model had a 63.07% accuracy, approximately 8.44% lower than that of the teacher's, but still 2.70% higher than that of the student model trained from scratch without distillation. The distilled model was about 2 seconds faster than the teacher model in terms of inference speed, at 21.93 seconds, and also faster than the student model trained from scratch by approximately 0.5 seconds.
-Thus, we can see a tradeoff between speed and accuracy between the teacher model and the distilled student model. The teacher model is more accurate but slower, and the distilled model is less accurate but faster. It can be indicated that the distilled model's advantage is that it attains 90% of the teacher's accuracy at a faster rate and with reduced cost.
+The teacher model achieved the highest accuracy at 71.51% but had the slowest inference time (23.90s). The distilled student model was faster (21.93s) but less accurate (63.07%), though still 2.70% more accurate than a student model trained without distillation. This highlights a trade-off: the teacher model is more accurate but slower, while the distilled model offers a good balance by achieving about 90% of the teacher’s accuracy with faster inference and lower cost.
 
 ---
 
