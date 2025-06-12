@@ -1,15 +1,16 @@
 # CIFAR-10 AlexNet Experiments
 
-This repository contains PyTorch implementations of AlexNet trained on CIFAR-10, exploring various performance optimization techniques: ONNX export, PyTorch JIT Trace mode, and Automatic Mixed Precision (AMP). These experiments demonstrate trade-offs between inference speed, training time, and model accuracy.
+This repository contains PyTorch implementations of AlexNet trained on CIFAR-10, exploring various performance optimization techniques: ONNX export, PyTorch JIT Trace mode, Automatic Mixed Precision (AMP), and Knowlege Distillation. These experiments demonstrate trade-offs between inference speed, training time, and model accuracy.
 
 ## Folder Structure
 
 cifar10-experiments/  
 ├── pytorch/  
-│   ├── baseline/       # Baseline AlexNet implementation  
-│   ├── amp/            # AlexNet with Automatic Mixed Precision  
-│   └── onnx-jit/       # ONNX export and JIT trace mode experiments  
-├── tensorflow/         # TensorFlow AlexNet implementation (not covered here)  
+│   ├── baseline/                 # Baseline AlexNet implementation  
+│   ├── amp/                      # AlexNet with Automatic Mixed Precision  
+│   ├── knowledge distillation/   # Knowledge Distillation with Teacher and Student Models  
+│   └── onnx-jit/                 # ONNX export and JIT trace mode experiments  
+├── tensorflow/                   # TensorFlow AlexNet implementation (not covered here)  
 ├── README.md  
 └── LICENSE  
 
